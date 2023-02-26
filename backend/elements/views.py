@@ -1,3 +1,16 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import IsAuthenticated, AllowAny
+from .serializers import ElementSerializer
+from rest_framework import status
+from .models import Element
 
-# Create your views here.
+
+@api_view(['GET'])
+def element_list(request):
+    if request.method == 'GET':
+        serializer = ElementSerializer(many=True)
+        return Response(serializer.data)
+
