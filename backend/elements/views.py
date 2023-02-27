@@ -9,8 +9,10 @@ from .models import Element
 
 
 @api_view(['GET'])
+@permission_classes([IsAuthenticated]) 
 def element_list(request):
     if request.method == 'GET':
-        serializer = ElementSerializer(many=True)
+        elements = Element.objects.all()
+        serializer = ElementSerializer(elements, many=True)
         return Response(serializer.data)
 

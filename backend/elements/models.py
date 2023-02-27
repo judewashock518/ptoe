@@ -7,5 +7,5 @@ class Element(models.Model):
     symbol = models.CharField(max_length=255)
     name = models.CharField(max_length=255)
     group = models.IntegerField()
-    atomic_mass = models.DecimalField(max_digits=8, decimal_places=2)
+    atomic_mass = models.DecimalField(max_digits=8, decimal_places=3)
     more_info = models.CharField(max_length=255)
