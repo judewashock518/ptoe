@@ -6,15 +6,20 @@ from rest_framework.permissions import IsAuthenticated, AllowAny
 from .serializers import StudentSerializer
 from rest_framework import status
 from .models import Student
+from authentication.models import User
 
 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated]) 
 def student_list(request):
     if request.method == 'GET':
-        students = Student.objects.all()
-        serializer = StudentSerializer(students, many=True)
-        return Response(serializer.data)
+        user_id = request.user.id
+        user_object = User.objects.get(id=user_id)
+        if user_object.is_teacher:
+            students = Student.objects.all()
+            serializer = StudentSerializer(students, many=True)
+            return Response(serializer.data)
+        return Response(status=status.HTTP_403_FORBIDDEN)
 
 @api_view(['GET'])
 @permission_classes([IsAuthenticated]) 
