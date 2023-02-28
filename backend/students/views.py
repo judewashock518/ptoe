@@ -15,3 +15,13 @@ def student_list(request):
         students = Student.objects.all()
         serializer = StudentSerializer(students, many=True)
         return Response(serializer.data)
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated]) 
+def student_detail(request):
+    if request.method == 'GET':
+        student = get_object_or_404(Student, user_id=request.user.id)
+        serializer = StudentSerializer(student)
+        return Response(serializer.data)
+    
+
