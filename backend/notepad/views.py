@@ -25,6 +25,6 @@ def note_list(request):
 @permission_classes([IsAuthenticated]) 
 def note_detail(request):
     if request.method == 'GET':
-        note = get_object_or_404(Note, user_id=request.user.id)
-        serializer = NoteSerializer(note)
+        note = Note.objects.filter(user_id=request.user.id)
+        serializer = NoteSerializer(note, many=True)
         return Response(serializer.data)

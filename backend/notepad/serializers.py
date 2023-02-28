@@ -5,3 +5,4 @@ class NoteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Note
         fields = ['user_id', 'heading', 'content', 'date', 'element_csv', 'total_elements_studied']
+        depth = 1
