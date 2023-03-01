@@ -21,15 +21,21 @@ def note_list(request):
             return Response(serializer.data)
         return Response(status=status.HTTP_403_FORBIDDEN)
 
-@api_view(['GET', 'PUT'])
+@api_view(['GET'])
 @permission_classes([IsAuthenticated]) 
 def note_detail(request):
     if request.method == 'GET':
         note = Note.objects.filter(user_id=request.user.id)
         serializer = NoteSerializer(note, many=True)
         return Response(serializer.data)
+ 
+
+@api_view(['PUT'])
+@permission_classes([IsAuthenticated]) 
+def update_detail(request,pk):
     if request.method == 'PUT':
+        note = Note.objects.get(pk=pk)
         serializer = NoteSerializer(note, data=request.data)
         serializer.is_valid(raise_exception=True)
-        serializer.save()
+        serializer.save(user = request.user)
         return Response(serializer.data)
