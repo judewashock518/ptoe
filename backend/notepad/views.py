@@ -23,7 +23,7 @@ def note_list(request):
 
 @api_view(['GET', 'PUT'])
 @permission_classes([IsAuthenticated]) 
-def note_detail(request, pk):
+def note_detail(request):
     if request.method == 'GET':
         note = Note.objects.filter(user_id=request.user.id)
         serializer = NoteSerializer(note, many=True)
