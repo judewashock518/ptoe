@@ -30,8 +30,12 @@ const Navbar = () => {
         )}
         {user?.is_student && (
           <div>
-            <button onClick={() => navigate("/notepad")}>Notepad</button>
-            <button onClick={() => navigate("/accountinfo")}>Your Account</button>
+          <Link to="/accountinfo" style={{ textDecoration: "none", color: "white" }}>
+            <b>Account</b>
+          </Link>
+          <Link to="/notepad" style={{ textDecoration: "none", color: "white" }}>
+            <b>Notepad</b>
+          </Link>
           </div>
         )}
         <li>

@@ -33,11 +33,93 @@ button:hover {
   background-color: steelblue;
 }
 
-.container {
-  text-align: left;
-  margin-left: 2rem;
-  margin-top:4.5rem;
+.bg {
+  background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(34, 34, 34) 90.2%);
+  background-attachment:fixed;
+  margin:0;
 }
+
+.header {
+  text-align: left;
+  color: rgb(228, 227, 227);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-left:5rem;
+  margin-top:2.5rem;
+  font-size:1.5rem;
+}
+
+table {
+  border-radius:0.5rem;
+  margin-left:23rem;
+  margin-top:2rem;
+}
+
+td {
+  width: 200px;
+  height: 30px;
+  border-radius:0.5rem;
+  border: 1px solid rgb(228, 227, 227);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(228, 227, 227);
+  text-align:center;
+}
+
+.alkalai-metals {
+  background: linear-gradient(-225deg, #7742B2 0%, #F180FF 52%, #FD8BD9 100%);
+}
+
+.transition-metals {
+  background: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);
+}
+
+.alkaline-earth-metals {
+  background: linear-gradient(111.5deg, rgb(187, 232, 255) 11.1%, rgb(4, 78, 116) 107.5%);
+}
+
+.metalloids {
+  background: radial-gradient(849px at 0.9% 2.8%, rgb(255, 157, 255) 0%, rgb(255, 102, 142) 43.4%, rgb(255, 31, 56) 83.1%);
+}
+
+.polyatomic-nonmetals {
+  background: linear-gradient(109.6deg, rgb(255, 219, 47) 11.2%, rgb(244, 253, 0) 100.2%);
+}
+
+.diatomic-nonmetals {
+  background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%);
+}
+
+.unknown-properties {
+  background: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+}
+
+.lanthanides {
+  background: radial-gradient(circle at 34.2% 44.3%, rgb(233, 79, 79) 6.5%, rgb(111, 34, 142) 100.2%);
+}
+
+.actinides {
+  background: linear-gradient(109.6deg, rgb(255, 251, 213) 11.2%, rgb(178, 10, 44) 91.2%);
+}
+
+.noble-gases {
+  background: linear-gradient(108.5deg, rgba(231, 69, 54, 0.82) 11.2%, rgba(255, 181, 17, 0.82) 68%);
+}
+
+.post-transition-metals {
+  background: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .form {
   align-items: left;
