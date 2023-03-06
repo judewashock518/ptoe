@@ -1,4 +1,5 @@
 ul {
+  float:right;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -8,28 +9,47 @@ li {
   font-size: 1.25rem;
 }
 
+.brand {
+  float:left;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
 .navBar {
-  background: steelblue;
-  box-shadow: 4px 2px 5px gray;
-  color: white;
-  margin-bottom: 2rem;
-  padding: 1.5rem 2rem;
+  overflow: hidden;
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(11, 11, 11) 0%, rgb(0, 0, 0) 99.4%);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  position: fixed;
+  z-index:1;
+  width:100%;
+  top:0;
+  left:0;
+}
+
+.navBar a {
+  float: right;
+  font-size: 16px;
+  color: rgb(228, 227, 227);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBar a:hover{
+  background: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
 }
 
 .navBar button {
-  background: transparent;
-  border: 2px solid white;
-  color: white;
-  padding: 0.4rem 0.5rem;
+  font-size: 16px;
+  color: rgb(228, 227, 227);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border:none;
 }
 
 .navBar button:hover {
-  background: white;
-  color: steelblue;
-  cursor: pointer;
-}
-
-.brand {
-  cursor: pointer;
-  font-size: 2rem;
+  background: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
 }
