@@ -17,11 +17,9 @@ const Navbar = () => {
         </li>
         {user?.is_teacher && (
           <div>
-            <li>
-              <Link to="/teacher" style={{ textDecoration: "none", color: "white" }}>
-                <b>Teacher Review</b>
-              </Link>
-            </li>
+            <button onClick={() => navigate("/teacher")}>Teacher Review</button>
+            <button onClick={() => navigate("/notepad")}>Notepad</button>
+            <button onClick={() => navigate("/accountinfo")}>Your Account</button>
           </div>
         )}
         <li>

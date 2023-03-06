@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-const TeacherPage = (props)=>{
+const NotePadPage = (props)=>{
     return(
         <div>
-            Teacher Page
+            Notepad Page
         </div>
     )
 }
-export default TeacherPage;
+export default NotePadPage;
