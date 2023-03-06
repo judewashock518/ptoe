@@ -15,6 +15,16 @@ const Navbar = () => {
             <b>React/Django JWT</b>
           </Link>
         </li>
+
+        {/* {user?.is_teacher === true && (
+          <div>
+            <li>
+              <Link to="/teacher-stuff-page" style={{ textDecoration: "none", color: "white" }}>
+                <b>Teacher stuff</b>
+              </Link>
+            </li>
+          </div>
+        )} */}
         <li>
           {user ? (
             <button onClick={logoutUser}>Logout</button>
