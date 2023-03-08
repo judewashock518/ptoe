@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import AuthContext from "../../context/AuthContext";
 import useCustomForm from "../../hooks/useCustomForm";
-
+import "./RegisterPage.css"
 const RegisterPage = () => {
   const { registerUser } = useContext(AuthContext);
   const defaultValues = {
@@ -19,9 +19,10 @@ const RegisterPage = () => {
   );
 
   return (
-    <div className="container">
-      <form className="form" onSubmit={handleSubmit}>
-        <label>
+  
+    <div className="">
+      <form className="register-form" onSubmit={handleSubmit}>
+        <label style={{"margin":"10px"}}>
           Username:{" "}
           <input
             type="text"
@@ -30,7 +31,7 @@ const RegisterPage = () => {
             onChange={handleInputChange}
           />
         </label>
-        <label>
+        <label style={{"margin":"10px"}}>
           First Name:{" "}
           <input
             type="text"
@@ -39,7 +40,7 @@ const RegisterPage = () => {
             onChange={handleInputChange}
           />
         </label>
-        <label>
+        <label style={{"margin":"10px"}}>
           Last Name:{" "}
           <input
             type="text"
@@ -48,7 +49,7 @@ const RegisterPage = () => {
             onChange={handleInputChange}
           />
         </label>
-        <label>
+        <label style={{"margin":"10px"}}>
           Email:{" "}
           <input
             type="text"
@@ -57,7 +58,7 @@ const RegisterPage = () => {
             onChange={handleInputChange}
           />
         </label>
-        <label>
+        <label style={{"margin":"10px"}}>
           Password:{" "}
           <input
             type="text"
@@ -66,17 +67,12 @@ const RegisterPage = () => {
             onChange={handleInputChange}
           />
         </label>
-        <label>
-          Students click here!
-          <input
-            type="checkbox"
-            name="is_student"
-            value={formData.is_student}
-            onChange={handleInputChange}
-          />
-        </label>
-        <label>
-          Teachers click here!
+        <p className="note" style={{ fontSize: "12px" }}>
+          NOTE: Make this an uncommon password with characters, numbers, and
+          special characters!
+        </p>
+        <label style={{"margin":"10px"}}>
+          Teacher Checkbox:
           <input
             type="checkbox"
             name="is_teacher"
@@ -84,13 +80,19 @@ const RegisterPage = () => {
             onChange={handleInputChange}
           />
         </label>
-        <p style={{ fontSize: "12px" }}>
-          NOTE: Make this an uncommon password with characters, numbers, and
-          special characters!
-        </p>
-        <button>Register!</button>
+        <label style={{"margin":"10px"}}>
+          Student Checkbox:
+          <input
+            type="checkbox"
+            name="is_student"
+            value={formData.is_student}
+            onChange={handleInputChange}
+          />
+        </label>
+        <button className="register">Register!</button>
       </form>
     </div>
+   
   );
 };
 

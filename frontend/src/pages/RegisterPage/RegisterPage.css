@@ -1,39 +1,57 @@
-.error {
-  color: red;
-}
-
 body{
 	margin: 0;
 	padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
 }
 label{
 	color:rgb(228, 227, 227);
-	font-size: 2.3em;
+	font-size: 1.5em;
 	justify-content: center;
 	display: flex;
-	margin: 60px;
 	font-weight: bold;
 	cursor: pointer;
 	transition: .5s ease-in-out;
 }
 input{
-	width: 60%;
-	height: 18px;
+	width: 55%;
+	height: 20px;
 	background: #e0dede;
 	justify-content: center;
 	display: flex;
-	margin: 20px auto;
+	margin: 10px auto;
 	padding: 10px;
 	border: none;
 	outline: none;
 	border-radius: 5px;
 }
-.login{
+.register-form{
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0rem;
+    width: 120%;
+    display: flex;
+    padding: 25px;
+    border-radius:3rem;
+    box-shadow: 5px 20px 50px rgb(100, 99, 99);
+    background-color: #373636;
+}
+.register-container input{
+    display: block;
+    width: 100%;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+}
+
+.note {
+    color:rgb(48, 133, 131);
+    margin-left:0.6rem;
+}
+
+.register{
 	width: 60%;
 	height: 40px;
 	margin: 10px auto;
@@ -52,7 +70,7 @@ input{
 	transition: .2s ease-in;
 	cursor: pointer;
 }
-.login:hover{
+.register:hover{
 	background-image: linear-gradient(
     to left,
     rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);

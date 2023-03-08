@@ -31,7 +31,6 @@ export const AuthProvider = ({ children }) => {
 
   const registerUser = async (registerData) => {
     try {
-      debugger
       let finalData = {
         username: registerData.username,
         password: registerData.password,
