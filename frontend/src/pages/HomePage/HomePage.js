@@ -5404,7 +5404,7 @@ const HomePage = () => {
                 <div className="flip-card-inner">
                   <div className="flip-card-front-diatomic-nonmetals">
                     <div className="atomic-number">1</div>
-                    <div className="symbol">H</div>
+                    <div className="symbol">H</div> 
                   </div>
                   <div className="flip-card-back-diatomic-nonmetals">
                     <div className="element-name">Hydrogen</div>
@@ -5429,7 +5429,8 @@ const HomePage = () => {
                   <div className="flip-card-back-alkali-metals">
                     <div className="element-name">Lithium</div>
                     <div className="atomic-mass">6.9410 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Lithium">
+                    <a href="https://en.wikipedia.org/wiki/Lithium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5446,7 +5447,8 @@ const HomePage = () => {
                   <div className="flip-card-back-alkali-metals">
                     <div className="element-name">Sodium</div>
                     <div className="atomic-mass">22.990 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Sodium">
+                    <a href="https://en.wikipedia.org/wiki/Sodium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5463,7 +5465,8 @@ const HomePage = () => {
                   <div className="flip-card-back-alkali-metals">
                     <div className="element-name">Potassium</div>
                     <div className="atomic-mass">39.098 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Potassium">
+                    <a href="https://en.wikipedia.org/wiki/Potassium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5480,7 +5483,8 @@ const HomePage = () => {
                   <div className="flip-card-back-alkali-metals">
                     <div className="element-name">Rubidium</div>
                     <div className="atomic-mass">85.468 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Rubidium">
+                    <a href="https://en.wikipedia.org/wiki/Rubidium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5497,7 +5501,8 @@ const HomePage = () => {
                   <div className="flip-card-back-alkali-metals">
                     <div className="element-name">Caesium</div>
                     <div className="atomic-mass">132.91 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Caesium">
+                    <a href="https://en.wikipedia.org/wiki/Caesium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5514,7 +5519,8 @@ const HomePage = () => {
                   <div className="flip-card-back-alkali-metals">
                     <div className="element-name">Francium</div>
                     <div className="atomic-mass">223 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Francium">
+                    <a href="https://en.wikipedia.org/wiki/Francium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5533,7 +5539,8 @@ const HomePage = () => {
                   <div className="flip-card-back-alkaline-earth-metals">
                     <div className="element-name">Beryllium</div>
                     <div className="atomic-mass">9.0122 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Beryllium">
+                    <a href="https://en.wikipedia.org/wiki/Beryllium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5550,7 +5557,8 @@ const HomePage = () => {
                   <div className="flip-card-back-alkaline-earth-metals">
                     <div className="element-name">Magnesium</div>
                     <div className="atomic-mass">24.305 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Magnesium">
+                    <a href="https://en.wikipedia.org/wiki/Magnesium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5567,7 +5575,8 @@ const HomePage = () => {
                   <div className="flip-card-back-alkaline-earth-metals">
                     <div className="element-name">Calcium</div>
                     <div className="atomic-mass">40.078 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Calcium">
+                    <a href="https://en.wikipedia.org/wiki/Calcium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5584,7 +5593,8 @@ const HomePage = () => {
                   <div className="flip-card-back-alkaline-earth-metals">
                     <div className="element-name">Strontium</div>
                     <div className="atomic-mass">87.620 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Strontium">
+                    <a href="https://en.wikipedia.org/wiki/Strontium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5601,7 +5611,8 @@ const HomePage = () => {
                   <div className="flip-card-back-alkaline-earth-metals">
                     <div className="element-name">Barium</div>
                     <div className="atomic-mass">137.33 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Barium">
+                    <a href="https://en.wikipedia.org/wiki/Barium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5618,7 +5629,8 @@ const HomePage = () => {
                   <div className="flip-card-back-alkaline-earth-metals">
                     <div className="element-name">Radium</div>
                     <div className="atomic-mass">226 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Radium">
+                    <a href="https://en.wikipedia.org/wiki/Radium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5637,7 +5649,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Scandium</div>
                     <div className="atomic-mass">44.956 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Scandium">
+                    <a href="https://en.wikipedia.org/wiki/Scandium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5654,7 +5667,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Yttrium</div>
                     <div className="atomic-mass">88.906 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Yttrium">
+                    <a href="https://en.wikipedia.org/wiki/Yttrium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5671,7 +5685,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Lanthanum</div>
                     <div className="atomic-mass">138.91 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Lanthanum">
+                    <a href="https://en.wikipedia.org/wiki/Lanthanum"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5688,7 +5703,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Actinium</div>
                     <div className="atomic-mass">227 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Actinium">
+                    <a href="https://en.wikipedia.org/wiki/Actinium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5707,7 +5723,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Titanium</div>
                     <div className="atomic-mass">47.867 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Titanium">
+                    <a href="https://en.wikipedia.org/wiki/Titanium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5724,7 +5741,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Zirconium</div>
                     <div className="atomic-mass">91.224 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Zirconium">
+                    <a href="https://en.wikipedia.org/wiki/Zirconium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5741,7 +5759,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Hafnium</div>
                     <div className="atomic-mass">178.49 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Hafnium">
+                    <a href="https://en.wikipedia.org/wiki/Hafnium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5758,7 +5777,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Rutherfordium</div>
                     <div className="atomic-mass">267 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Rutherfordium">
+                    <a href="https://en.wikipedia.org/wiki/Rutherfordium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5775,7 +5795,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Cerium</div>
                     <div className="atomic-mass">140.12 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Cerium">
+                    <a href="https://en.wikipedia.org/wiki/Cerium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5792,7 +5813,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Thorium</div>
                     <div className="atomic-mass">232.04 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Thorium">
+                    <a href="https://en.wikipedia.org/wiki/Thorium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5811,7 +5833,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Vanadium</div>
                     <div className="atomic-mass">50.942 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Vanadium">
+                    <a href="https://en.wikipedia.org/wiki/Vanadium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5828,7 +5851,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Niobium</div>
                     <div className="atomic-mass">92.906 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Niobium">
+                    <a href="https://en.wikipedia.org/wiki/Niobium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5845,7 +5869,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Tantalum</div>
                     <div className="atomic-mass">180.95 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Tantalum">
+                    <a href="https://en.wikipedia.org/wiki/Tantalum"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5862,7 +5887,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Dubnium</div>
                     <div className="atomic-mass">262 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Dubnium">
+                    <a href="https://en.wikipedia.org/wiki/Dubnium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5879,7 +5905,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Praseodymium</div>
                     <div className="atomic-mass">140.91 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Praseodymium">
+                    <a href="https://en.wikipedia.org/wiki/Praseodymium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5896,7 +5923,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Protactinium</div>
                     <div className="atomic-mass">231.04 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Protactinium">
+                    <a href="https://en.wikipedia.org/wiki/Protactinium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5915,7 +5943,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Chromium</div>
                     <div className="atomic-mass">51.996 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Chromium">
+                    <a href="https://en.wikipedia.org/wiki/Chromium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5932,7 +5961,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Molybdenum</div>
                     <div className="atomic-mass">95.950 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Molybdenum">
+                    <a href="https://en.wikipedia.org/wiki/Molybdenum"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5949,7 +5979,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Tungsten</div>
                     <div className="atomic-mass">183.84 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Tungsten">
+                    <a href="https://en.wikipedia.org/wiki/Tungsten"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5966,7 +5997,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Seaborgium</div>
                     <div className="atomic-mass">269 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Seaborgium">
+                    <a href="https://en.wikipedia.org/wiki/Seaborgium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -5983,7 +6015,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Neodymium</div>
                     <div className="atomic-mass">144.24 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Neodymium">
+                    <a href="https://en.wikipedia.org/wiki/Neodymium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6000,7 +6033,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Uranium</div>
                     <div className="atomic-mass">238.03 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Uranium">
+                    <a href="https://en.wikipedia.org/wiki/Uranium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6019,7 +6053,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Manganese</div>
                     <div className="atomic-mass">54.938 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Manganese">
+                    <a href="https://en.wikipedia.org/wiki/Manganese"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6036,7 +6071,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Technetium</div>
                     <div className="atomic-mass">98 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Technetium">
+                    <a href="https://en.wikipedia.org/wiki/Technetium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6053,7 +6089,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Rhenium</div>
                     <div className="atomic-mass">186.21 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Rhenium">
+                    <a href="https://en.wikipedia.org/wiki/Rhenium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6070,7 +6107,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Bohrium</div>
                     <div className="atomic-mass">264 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Bohrium">
+                    <a href="https://en.wikipedia.org/wiki/Bohrium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6087,7 +6125,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Promethium</div>
                     <div className="atomic-mass">145 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Promethium">
+                    <a href="https://en.wikipedia.org/wiki/Promethium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6104,7 +6143,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Neptunium</div>
                     <div className="atomic-mass">237.05 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Neptunium">
+                    <a href="https://en.wikipedia.org/wiki/Neptunium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6123,7 +6163,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Iron</div>
                     <div className="atomic-mass">55.845 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Iron">
+                    <a href="https://en.wikipedia.org/wiki/Iron"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6140,7 +6181,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Ruthenium</div>
                     <div className="atomic-mass">101.07 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Ruthenium">
+                    <a href="https://en.wikipedia.org/wiki/Ruthenium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6157,7 +6199,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Osmium</div>
                     <div className="atomic-mass">190.23 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Osmium">
+                    <a href="https://en.wikipedia.org/wiki/Osmium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6174,7 +6217,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Hassium</div>
                     <div className="atomic-mass">269 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Hassium">
+                    <a href="https://en.wikipedia.org/wiki/Hassium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6191,7 +6235,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Samarium</div>
                     <div className="atomic-mass">150.36 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Samarium">
+                    <a href="https://en.wikipedia.org/wiki/Samarium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6208,7 +6253,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Plutonium</div>
                     <div className="atomic-mass">244 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Plutonium">
+                    <a href="https://en.wikipedia.org/wiki/Plutonium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6227,7 +6273,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Cobalt</div>
                     <div className="atomic-mass">58.933 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Cobalt">
+                    <a href="https://en.wikipedia.org/wiki/Cobalt"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6244,7 +6291,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Rhodium</div>
                     <div className="atomic-mass">102.91 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Rhodium">
+                    <a href="https://en.wikipedia.org/wiki/Rhodium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6261,7 +6309,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Iridium</div>
                     <div className="atomic-mass">192.22 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Tridium">
+                    <a href="https://en.wikipedia.org/wiki/Tridium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6278,7 +6327,8 @@ const HomePage = () => {
                   <div className="flip-card-back-unknown-properties">
                     <div className="element-name">Meitnerium</div>
                     <div className="atomic-mass">278 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Meitnerium">
+                    <a href="https://en.wikipedia.org/wiki/Meitnerium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6295,7 +6345,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Europium</div>
                     <div className="atomic-mass">151.96 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Europium">
+                    <a href="https://en.wikipedia.org/wiki/Europium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6312,7 +6363,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Americium</div>
                     <div className="atomic-mass">243 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Americium">
+                    <a href="https://en.wikipedia.org/wiki/Americium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6331,7 +6383,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Nickel</div>
                     <div className="atomic-mass">58.693 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Nickel">
+                    <a href="https://en.wikipedia.org/wiki/Nickel"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6348,7 +6401,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Palladium</div>
                     <div className="atomic-mass">106.42 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Palladium">
+                    <a href="https://en.wikipedia.org/wiki/Palladium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6365,7 +6419,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Platinum</div>
                     <div className="atomic-mass">195.08 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Platinum">
+                    <a href="https://en.wikipedia.org/wiki/Platinum"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6382,7 +6437,8 @@ const HomePage = () => {
                   <div className="flip-card-back-unknown-properties">
                     <div className="element-name">Darmstadtium</div>
                     <div className="atomic-mass">281 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Darmstadtium">
+                    <a href="https://en.wikipedia.org/wiki/Darmstadtium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6399,7 +6455,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Gadolinium</div>
                     <div className="atomic-mass">157.25 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Gadolinium">
+                    <a href="https://en.wikipedia.org/wiki/Gadolinium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6416,7 +6473,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Curium</div>
                     <div className="atomic-mass">247 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Curium">
+                    <a href="https://en.wikipedia.org/wiki/Curium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6435,7 +6493,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Copper</div>
                     <div className="atomic-mass">63.546 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Copper">
+                    <a href="https://en.wikipedia.org/wiki/Copper"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6452,7 +6511,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Silver</div>
                     <div className="atomic-mass">107.87 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Silver">
+                    <a href="https://en.wikipedia.org/wiki/Silver"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6469,7 +6529,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Gold</div>
                     <div className="atomic-mass">196.97 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Gold">
+                    <a href="https://en.wikipedia.org/wiki/Gold"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6486,7 +6547,8 @@ const HomePage = () => {
                   <div className="flip-card-back-unknown-properties">
                     <div className="element-name">Roentgenium</div>
                     <div className="atomic-mass">282 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Roentgenium">
+                    <a href="https://en.wikipedia.org/wiki/Roentgenium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6503,7 +6565,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Terbium</div>
                     <div className="atomic-mass">158.93 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Terbium">
+                    <a href="https://en.wikipedia.org/wiki/Terbium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6520,7 +6583,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Berkelium</div>
                     <div className="atomic-mass">247 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Berkelium">
+                    <a href="https://en.wikipedia.org/wiki/Berkelium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6539,7 +6603,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Zinc</div>
                     <div className="atomic-mass">65.380 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Zinc">
+                    <a href="https://en.wikipedia.org/wiki/Zinc"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6556,7 +6621,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Cadmium</div>
                     <div className="atomic-mass">112.41 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Cadmium">
+                    <a href="https://en.wikipedia.org/wiki/Cadmium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6573,7 +6639,8 @@ const HomePage = () => {
                   <div className="flip-card-back-transition-metals">
                     <div className="element-name">Mercury</div>
                     <div className="atomic-mass">200.59 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Mercury">
+                    <a href="https://en.wikipedia.org/wiki/Mercury"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6590,7 +6657,8 @@ const HomePage = () => {
                   <div className="flip-card-back-unknown-properties">
                     <div className="element-name">Copernicium</div>
                     <div className="atomic-mass">285 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Copernicium">
+                    <a href="https://en.wikipedia.org/wiki/Copernicium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6607,7 +6675,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Dysprosium</div>
                     <div className="atomic-mass">162.5 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Dysprosium">
+                    <a href="https://en.wikipedia.org/wiki/Dysprosium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6624,7 +6693,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Californium</div>
                     <div className="atomic-mass">251 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Californium">
+                    <a href="https://en.wikipedia.org/wiki/Californium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6643,7 +6713,8 @@ const HomePage = () => {
                   <div className="flip-card-back-metalloids">
                     <div className="element-name">Boron</div>
                     <div className="atomic-mass">10.811 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Boron">
+                    <a href="https://en.wikipedia.org/wiki/Boron"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6660,7 +6731,8 @@ const HomePage = () => {
                   <div className="flip-card-back-posttransition-metals">
                     <div className="element-name">Aluminium</div>
                     <div className="atomic-mass">26.982 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Aluminium">
+                    <a href="https://en.wikipedia.org/wiki/Aluminium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6677,7 +6749,8 @@ const HomePage = () => {
                   <div className="flip-card-back-posttransition-metals">
                     <div className="element-name">Gallium</div>
                     <div className="atomic-mass">69.723 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Gallium">
+                    <a href="https://en.wikipedia.org/wiki/Gallium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6694,7 +6767,8 @@ const HomePage = () => {
                   <div className="flip-card-back-posttransition-metals">
                     <div className="element-name">Indium</div>
                     <div className="atomic-mass">114.82 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Indium">
+                    <a href="https://en.wikipedia.org/wiki/Indium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6711,7 +6785,8 @@ const HomePage = () => {
                   <div className="flip-card-back-posttransition-metals">
                     <div className="element-name">Thallium</div>
                     <div className="atomic-mass">204.38 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Thallium">
+                    <a href="https://en.wikipedia.org/wiki/Thallium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6728,7 +6803,8 @@ const HomePage = () => {
                   <div className="flip-card-back-unknown-properties">
                     <div className="element-name">Nihonium</div>
                     <div className="atomic-mass">286 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Nihonium">
+                    <a href="https://en.wikipedia.org/wiki/Nihonium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6745,7 +6821,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Holmium</div>
                     <div className="atomic-mass">164.93 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Holmium">
+                    <a href="https://en.wikipedia.org/wiki/Holmium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6762,7 +6839,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Einsteinium</div>
                     <div className="atomic-mass">252 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Einsteinium">
+                    <a href="https://en.wikipedia.org/wiki/Einsteinium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6781,7 +6859,8 @@ const HomePage = () => {
                   <div className="flip-card-back-diatomic-nonmetals">
                     <div className="element-name">Carbon</div>
                     <div className="atomic-mass">12.011 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Carbon">
+                    <a href="https://en.wikipedia.org/wiki/Carbon"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6798,7 +6877,8 @@ const HomePage = () => {
                   <div className="flip-card-back-metalloids">
                     <div className="element-name">Silicon</div>
                     <div className="atomic-mass">28.086 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Silicon">
+                    <a href="https://en.wikipedia.org/wiki/Silicon"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6815,7 +6895,8 @@ const HomePage = () => {
                   <div className="flip-card-back-metalloids">
                     <div className="element-name">Germanium</div>
                     <div className="atomic-mass">72.640 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Germanium">
+                    <a href="https://en.wikipedia.org/wiki/Germanium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6832,7 +6913,8 @@ const HomePage = () => {
                   <div className="flip-card-back-posttransition-metals">
                     <div className="element-name">Tin</div>
                     <div className="atomic-mass">118.71 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Tin">
+                    <a href="https://en.wikipedia.org/wiki/Tin"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6849,7 +6931,8 @@ const HomePage = () => {
                   <div className="flip-card-back-posttransition-metals">
                     <div className="element-name">Lead</div>
                     <div className="atomic-mass">207.20 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Lead">
+                    <a href="https://en.wikipedia.org/wiki/Lead"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6866,7 +6949,8 @@ const HomePage = () => {
                   <div className="flip-card-back-unknown-properties">
                     <div className="element-name">Flerovium</div>
                     <div className="atomic-mass">289 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Flerovium">
+                    <a href="https://en.wikipedia.org/wiki/Flerovium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6883,7 +6967,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Erbium</div>
                     <div className="atomic-mass">167.26 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Erbium">
+                    <a href="https://en.wikipedia.org/wiki/Erbium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6900,7 +6985,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Fermium</div>
                     <div className="atomic-mass">257 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Fermium">
+                    <a href="https://en.wikipedia.org/wiki/Fermium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6919,7 +7005,8 @@ const HomePage = () => {
                   <div className="flip-card-back-diatomic-nonmetals">
                     <div className="element-name">Nitrogen</div>
                     <div className="atomic-mass">14.007 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Nitrogen">
+                    <a href="https://en.wikipedia.org/wiki/Nitrogen"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6936,7 +7023,8 @@ const HomePage = () => {
                   <div className="flip-card-back-polyatomic-nonmetals">
                     <div className="element-name">Phosphorus</div>
                     <div className="atomic-mass">30.974 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Phosphorus">
+                    <a href="https://en.wikipedia.org/wiki/Phosphorus"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6953,7 +7041,8 @@ const HomePage = () => {
                   <div className="flip-card-back-metalloids">
                     <div className="element-name">Arsenic</div>
                     <div className="atomic-mass">74.922 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Arsenic">
+                    <a href="https://en.wikipedia.org/wiki/Arsenic"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6970,7 +7059,8 @@ const HomePage = () => {
                   <div className="flip-card-back-metalloids">
                     <div className="element-name">Antimony</div>
                     <div className="atomic-mass">121.76 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Antimony">
+                    <a href="https://en.wikipedia.org/wiki/Antimony"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -6987,7 +7077,8 @@ const HomePage = () => {
                   <div className="flip-card-back-posttransition-metals">
                     <div className="element-name">Bismuth</div>
                     <div className="atomic-mass">208.98 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Bismuth">
+                    <a href="https://en.wikipedia.org/wiki/Bismuth"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7004,7 +7095,8 @@ const HomePage = () => {
                   <div className="flip-card-back-unknown-properties">
                     <div className="element-name">Moscovium</div>
                     <div className="atomic-mass">289 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Moscovium">
+                    <a href="https://en.wikipedia.org/wiki/Moscovium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7021,7 +7113,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Thulium</div>
                     <div className="atomic-mass">168.93 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Thulium">
+                    <a href="https://en.wikipedia.org/wiki/Thulium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7038,7 +7131,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Mendelevium</div>
                     <div className="atomic-mass">258 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Mendelevium">
+                    <a href="https://en.wikipedia.org/wiki/Mendelevium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7057,7 +7151,8 @@ const HomePage = () => {
                   <div className="flip-card-back-diatomic-nonmetals">
                     <div className="element-name">Oxygen</div>
                     <div className="atomic-mass">15.999 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Oxygen">
+                    <a href="https://en.wikipedia.org/wiki/Oxygen"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7074,7 +7169,8 @@ const HomePage = () => {
                   <div className="flip-card-back-polyatomic-nonmetals">
                     <div className="element-name">Sulfur</div>
                     <div className="atomic-mass">32.065 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Sulfur">
+                    <a href="https://en.wikipedia.org/wiki/Sulfur"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7091,7 +7187,8 @@ const HomePage = () => {
                   <div className="flip-card-back-polyatomic-nonmetals">
                     <div className="element-name">Selenium</div>
                     <div className="atomic-mass">78.960 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Selenium">
+                    <a href="https://en.wikipedia.org/wiki/Selenium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7108,7 +7205,8 @@ const HomePage = () => {
                   <div className="flip-card-back-metalloids">
                     <div className="element-name">Tellurium</div>
                     <div className="atomic-mass">127.60 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Tellurium">
+                    <a href="https://en.wikipedia.org/wiki/Tellurium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7125,7 +7223,8 @@ const HomePage = () => {
                   <div className="flip-card-back-posttransition-metals">
                     <div className="element-name">Polonium</div>
                     <div className="atomic-mass">209 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Polonium">
+                    <a href="https://en.wikipedia.org/wiki/Polonium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7142,7 +7241,8 @@ const HomePage = () => {
                   <div className="flip-card-back-unknown-properties">
                     <div className="element-name">Livermorium</div>
                     <div className="atomic-mass">293 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Livermorium">
+                    <a href="https://en.wikipedia.org/wiki/Livermorium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7159,7 +7259,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Ytterbium</div>
                     <div className="atomic-mass">173.04 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Ytterbium">
+                    <a href="https://en.wikipedia.org/wiki/Ytterbium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7176,7 +7277,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Nobelium</div>
                     <div className="atomic-mass">259 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Nobelium">
+                    <a href="https://en.wikipedia.org/wiki/Nobelium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7195,7 +7297,8 @@ const HomePage = () => {
                   <div className="flip-card-back-diatomic-nonmetals">
                     <div className="element-name">Fluorine</div>
                     <div className="atomic-mass">18.998 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Fluorine">
+                    <a href="https://en.wikipedia.org/wiki/Fluorine"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7212,7 +7315,8 @@ const HomePage = () => {
                   <div className="flip-card-back-diatomic-nonmetals">
                     <div className="element-name">Chlorine</div>
                     <div className="atomic-mass">35.453 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Chlorine">
+                    <a href="https://en.wikipedia.org/wiki/Chlorine"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7229,7 +7333,8 @@ const HomePage = () => {
                   <div className="flip-card-back-diatomic-nonmetals">
                     <div className="element-name">Bromine</div>
                     <div className="atomic-mass">79.904 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Bromine">
+                    <a href="https://en.wikipedia.org/wiki/Bromine"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7246,7 +7351,8 @@ const HomePage = () => {
                   <div className="flip-card-back-diatomic-nonmetals">
                     <div className="element-name">Iodine</div>
                     <div className="atomic-mass">126.90 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Iodine">
+                    <a href="https://en.wikipedia.org/wiki/Iodine"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7263,7 +7369,8 @@ const HomePage = () => {
                   <div className="flip-card-back-posttransition-metals">
                     <div className="element-name">Astatine</div>
                     <div className="atomic-mass">210 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Astatine">
+                    <a href="https://en.wikipedia.org/wiki/Astatine"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7280,7 +7387,8 @@ const HomePage = () => {
                   <div className="flip-card-back-unknown-properties">
                     <div className="element-name">Tennessine</div>
                     <div className="atomic-mass">294 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Tennessine">
+                    <a href="https://en.wikipedia.org/wiki/Tennessine"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7297,7 +7405,8 @@ const HomePage = () => {
                   <div className="flip-card-back-lanthanides">
                     <div className="element-name">Lutetium</div>
                     <div className="atomic-mass">174.97 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Lutetium">
+                    <a href="https://en.wikipedia.org/wiki/Lutetium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7314,7 +7423,8 @@ const HomePage = () => {
                   <div className="flip-card-back-actinides">
                     <div className="element-name">Lawrencium</div>
                     <div className="atomic-mass">262 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Lawrencium">
+                    <a href="https://en.wikipedia.org/wiki/Lawrencium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7333,7 +7443,8 @@ const HomePage = () => {
                   <div className="flip-card-back-noble-gases">
                     <div className="element-name">Helium</div>
                     <div className="atomic-mass">4.0026 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Helium">
+                    <a href="https://en.wikipedia.org/wiki/Helium"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7350,7 +7461,8 @@ const HomePage = () => {
                   <div className="flip-card-back-noble-gases">
                     <div className="element-name">Neon</div>
                     <div className="atomic-mass">20.180 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Neon">
+                    <a href="https://en.wikipedia.org/wiki/Neon"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7367,7 +7479,8 @@ const HomePage = () => {
                   <div className="flip-card-back-noble-gases">
                     <div className="element-name">Argon</div>
                     <div className="atomic-mass">39.948 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Argon">
+                    <a href="https://en.wikipedia.org/wiki/Argon"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7384,7 +7497,8 @@ const HomePage = () => {
                   <div className="flip-card-back-noble-gases">
                     <div className="element-name">Krypton</div>
                     <div className="atomic-mass">83.798 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Krypton">
+                    <a href="https://en.wikipedia.org/wiki/Krypton"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7401,7 +7515,8 @@ const HomePage = () => {
                   <div className="flip-card-back-noble-gases">
                     <div className="element-name">Xenon</div>
                     <div className="atomic-mass">131.29 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Xenon">
+                    <a href="https://en.wikipedia.org/wiki/Xenon"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7418,7 +7533,8 @@ const HomePage = () => {
                   <div className="flip-card-back-noble-gases">
                     <div className="element-name">Radon</div>
                     <div className="atomic-mass">222 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Radon">
+                    <a href="https://en.wikipedia.org/wiki/Radon"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
@@ -7435,7 +7551,8 @@ const HomePage = () => {
                   <div className="flip-card-back-unknown-properties">
                     <div className="element-name">Oganesson</div>
                     <div className="atomic-mass">294 u</div>
-                    <a href="https://en.wikipedia.org/wiki/Oganesson">
+                    <a href="https://en.wikipedia.org/wiki/Oganesson"
+                       target="_blank">
                       <button className="bn632-hover bn22">More info</button>
                     </a>
                   </div>
