@@ -16,6 +16,7 @@ import Footer from "./components/Footer/Footer";
 
 // Util Imports
 import PrivateRoute from "./utils/PrivateRoute";
+import PeriodicTable from "./components/PeriodicTable/PeriodicTable";
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
           path="/"
           element={
             <PrivateRoute>
-              <HomePage />
+              <PeriodicTable />
             </PrivateRoute>
           }
         />
@@ -36,6 +37,18 @@ function App() {
         <Route path="/notepad" element={<NotePadPage />} />
         <Route path="/accountinfo" element={<AccountInfoPage />} />
       </Routes>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <Footer />
     </div>
   );

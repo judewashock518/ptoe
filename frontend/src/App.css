@@ -151,39 +151,11 @@ td {
 }
 
 .container {
-  height: 38vh;
+  height: 45vh;
   width:auto;
   margin-left:5rem;
   margin-top:0rem;
   margin-right:2rem;
-}
-
-.panel-one {
-  float: left;
-}
-
-.panel-two {
-  float: left;
-  position:relative;
-  top:100px;
-}
-
-.panel-three {
-  float: left;
-  position: relative;
-  top: 300px;
-}
-
-.panel-four {
-  float: left;
-  position: relative;
-  top: 300px;
-}
-
-.panel-five {
-  float: left;
-  position: relative;
-  top: 300px;
 }
 
 .atomic-number {
@@ -221,6 +193,7 @@ td {
   width: 100px;
   height: 100px;
   perspective: 1000px;
+  margin:5px;
 }
 
 .flip-card-inner {
