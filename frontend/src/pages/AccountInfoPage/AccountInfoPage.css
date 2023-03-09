@@ -1,0 +1,42 @@
+.main{
+	width: 350px;
+	height: 500px;
+	background: radial-gradient(827px at 47.3% 48%, rgb(255, 255, 255) 0%, rgb(138, 192, 216) 90%);
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+  
+.student-profile .card {
+    border-radius: 10px;
+}
+  
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    margin-left:1rem;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+  
+.student-profile .card h3 {
+    margin-left:1rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+  
+.student-profile .card p {
+    margin-left:2rem;
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+}
+  
+.student-profile .table th,
+.student-profile .table td {
+    margin-left:2rem;
+    font-size: 14px;
+    padding: 5px 10px;
+    color: rgb(17, 17, 17);
+}
