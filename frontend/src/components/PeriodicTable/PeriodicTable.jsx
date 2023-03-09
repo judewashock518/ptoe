@@ -61,21 +61,18 @@ const PeriodicTable = () => {
       </table>
     <div className="periodic-table" style={{"color":"black"}}>
     {data.elements.map((element) => (
-
         <div className="flip-card" style={{
-                  gridRow: element.ypos,
-                  gridColumn: element.xpos,
-                  
-        
-                }}>
+          gridRow: element.ypos,
+          gridColumn: element.xpos,
+        }}>
         <div className="flip-card-inner">
         <div className={element.categoryStyleFront}>
             <div className="atomic-number">{element.number}</div>
             <div className="symbol">{element.symbol}</div>
         </div>
-        <div className="flip-card-back-alkali-metals">
+        <div className={element.categoryStyleBack}>
             <div className="element-name">{element.name}</div>
-            <div className="atomic-mass">{element.atomic_mass}</div>
+            <div className="atomic-mass">{element.atomic_mass}u</div>
             <a href={element.source}
             target="_blank">
             <button className="bn632-hover bn22">More info</button>
@@ -90,20 +87,4 @@ const PeriodicTable = () => {
 };
 
 export default PeriodicTable;
-
-//   <div
-    //     className={`element ${element.categoryStyle}`}
-    //     key={element.name}
-    //     style={{
-    //       gridRow: element.ypos,
-    //       gridColumn: element.xpos,
-    //       borderColor: colorMap[element.category],
-          
-
-    //     }}
-    //   >
-    //     <strong>{element.symbol}</strong>
-    //     <small className="number">{element.number}</small>
-    //     <small className="name">{element.name}</small>
-    //   </div>
 
