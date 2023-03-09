@@ -72,7 +72,8 @@ const PeriodicTable = () => {
         </div>
         <div className={element.categoryStyleBack}>
             <div className="element-name">{element.name}</div>
-            <div className="atomic-mass">{element.atomic_mass}u</div>
+            <div className="atomic-mass">{element.atomic_mass} u</div>
+            <div className="phase">{element.phase}</div>
             <a href={element.source}
             target="_blank">
             <button className="bn632-hover bn22">More info</button>
