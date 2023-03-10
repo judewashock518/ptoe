@@ -1,10 +1,9 @@
 import Note from "../Note/Note";
 
-
 const NoteList = (props) => {
     return ( 
       <ul>
-        {props.parentEntries.map((entry) => <Note entry={entry}/>)}
+        {props.notes.map((entry) => <Note key={entry.id} entry={entry}/>)}
       </ul>
 
     );

@@ -1,5 +1,7 @@
+import axios from 'axios';
 import React, { useState } from 'react';
-import './CreateNoteForm.css'
+import './CreateNoteForm.css';
+import useAuth from '../../hooks/useAuth';
 
 
 const CreateNoteForm = (props) => {
@@ -9,8 +11,9 @@ const CreateNoteForm = (props) => {
     const [date, setDate] = useState('');
     const [element_csv, setElementCsv] = useState('');
     const [total_elements_studied, setTotalElementsStudied] = useState('');
+    const [user, token] = useAuth();
 
-    function handleSubmit(event) {
+    async function handleSubmit(event) {
         event.preventDefault();
         let newEntry = {
             heading: heading,
@@ -20,7 +23,8 @@ const CreateNoteForm = (props) => {
             total_elements_studied : total_elements_studied
         };
         console.log(newEntry);
-        props.addNewEntryProperty(newEntry)
+        
+        const response = await axios.post("endpoint", newEntry, {headers: {Authorization: "Bearer " + token}});
     }
 
 
