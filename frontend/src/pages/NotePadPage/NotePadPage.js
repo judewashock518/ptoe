@@ -4,6 +4,7 @@ import NoteList from '../../components/NoteList/NoteList';
 import './NotePadPage.css';
 import useAuth from '../../hooks/useAuth';
 import axios from 'axios';
+import UpdateNote from '../../components/UpdateNote/UpdateNote';
 
 
 const NotePadPage = (props)=>{
@@ -36,6 +37,7 @@ const NotePadPage = (props)=>{
   };
     return(
         <div>
+            <UpdateNote addNewEntryProperty={addNewEntry} />
             <CreateNoteForm addNewEntryProperty={addNewEntry} getAllNotes={fetchNotes}/>
             {notes && <NoteList notes = {notes}/>}
         </div>

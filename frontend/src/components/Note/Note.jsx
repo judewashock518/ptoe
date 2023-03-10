@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Note.css';
+import UpdateNote from '../UpdateNote/UpdateNote'; 
 
 const Note = (props) => {
 
@@ -12,6 +13,7 @@ const Note = (props) => {
             <p className="date_space">{props.entry.date}</p>
             <p className="element_csv">{props.entry.element_csv}</p>
             <p className="elements_studied">{props.entry.total_elements_studied}</p>
+            <button type='submit' className='note_update_button' style={{'margin-right': '10rem'}}>Update</button>
         </div>
 
   );

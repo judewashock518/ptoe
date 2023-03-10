@@ -1,10 +1,10 @@
 import axios from 'axios';
 import React, { useState } from 'react';
-import './CreateNoteForm.css';
+import './UpdateNote.css';
 import useAuth from '../../hooks/useAuth';
 
 
-const CreateNoteForm = (props) => {
+const UpdateNote = (props) => {
 
     const [heading, setHeading] = useState('');
     const [content, setContent] = useState('');
@@ -24,7 +24,7 @@ const CreateNoteForm = (props) => {
         };
         console.log(newEntry);
 
-        const response = await axios.post("http://127.0.0.1:8000/api/notepad/notes/", newEntry, {headers: {Authorization: "Bearer " + token}});
+        const response = await axios.put(`http://127.0.0.1:8000/api/notepad/${props.noteid}/`, newEntry, {headers: {Authorization: "Bearer " + token}});
         props.getAllNotes();
 
         
@@ -45,7 +45,7 @@ const CreateNoteForm = (props) => {
                 <textarea className="text_box" type='text' rows='2' style={{width:600}} value={element_csv} onChange={(event) => setElementCsv(event.target.value)}></textarea>
                 <label className="note_label_flex">Total Elements Studied</label>
                 <input type ='number' id='quantity' min='1' max='119' style={{width:600}} value={total_elements_studied} onChange={(event) => setTotalElementsStudied(event.target.value)} />
-                <button type='submit' className='note_button' style={{'margin-right': '10rem'}}>Add Note</button>
+                <button type='submit' className='note_button' style={{'margin-right': '10rem'}}>Update Note</button>
                 </div>
             </div>
         </form>
@@ -53,4 +53,4 @@ const CreateNoteForm = (props) => {
     );
 }
  
-export default CreateNoteForm;
+export default UpdateNote;
