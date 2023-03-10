@@ -24,8 +24,9 @@ const UpdateNote = (props) => {
         };
         console.log(newEntry);
 
-        const response = await axios.put(`http://127.0.0.1:8000/api/notepad/${props.noteid}/`, newEntry, {headers: {Authorization: "Bearer " + token}});
+        const response = await axios.put(`http://127.0.0.1:8000/api/notepad/${props.noteToUpdate}/`, newEntry, {headers: {Authorization: "Bearer " + token}});
         props.getAllNotes();
+        props.setToggle(false);
 
         
     }

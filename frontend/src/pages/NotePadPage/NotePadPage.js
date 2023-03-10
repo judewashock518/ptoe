@@ -11,6 +11,7 @@ const NotePadPage = (props)=>{
 
     const [notes, setNotes] = useState();
     const [user, token] = useAuth();
+    const [toggle, setToggle] = useState(false)
 
   function addNewEntry(note){
     let tempEntries = [note, ...notes];
@@ -37,9 +38,8 @@ const NotePadPage = (props)=>{
   };
     return(
         <div>
-            <UpdateNote addNewEntryProperty={addNewEntry} />
             <CreateNoteForm addNewEntryProperty={addNewEntry} getAllNotes={fetchNotes}/>
-            {notes && <NoteList notes = {notes}/>}
+            {notes && <NoteList getAllNotes={fetchNotes} notes = {notes} setToggle={setToggle}/>}
         </div>
     )
 }
