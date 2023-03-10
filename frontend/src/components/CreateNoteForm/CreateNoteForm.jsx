@@ -22,27 +22,30 @@ const CreateNoteForm = (props) => {
             element_csv : element_csv,
             total_elements_studied : total_elements_studied
         };
+        // console.log(response);
         console.log(newEntry);
-        props.getAllNotes();
-        
+
         const response = await axios.post("http://127.0.0.1:8000/api/notepad/notes/", newEntry, {headers: {Authorization: "Bearer " + token}});
+        props.getAllNotes();
+
+        
     }
 
 
     return ( 
         <form onSubmit={handleSubmit}>
-            <div className='create_note_border_box'>
+            <div className='note_form_border_box'>
                 <label className="note_label_flex">Heading</label>
-                <input className="input_box" type='text' value={heading} onChange={(event) => setHeading(event.target.value)} />
+                <input className="input_box" type='text' style={{width:600}} value={heading} onChange={(event) => setHeading(event.target.value)} />
                 <div className="post_flex_box">
                 <label className="note_label_flex">Content</label>
-                <textarea className="text_box" type='text' rows='4'value={content} onChange={(event) => setContent(event.target.value)}></textarea>
+                <textarea className="text_box" type='text' style={{width:600}} rows='4'value={content} onChange={(event) => setContent(event.target.value)}></textarea>
                 <label className="note_label_flex">Date</label>
-                <input type ='date' className='form-control' value={date} onChange={(event) => setDate(event.target.value)} />
+                <input type ='date' className='form-control' style={{width:600}} value={date} onChange={(event) => setDate(event.target.value)} />
                 <label className="note_label_flex">Elements Studied by Symbol</label>
-                <textarea className="text_box" type='text' rows='2'value={element_csv} onChange={(event) => setElementCsv(event.target.value)}></textarea>
+                <textarea className="text_box" type='text' rows='2' style={{width:600}} value={element_csv} onChange={(event) => setElementCsv(event.target.value)}></textarea>
                 <label className="note_label_flex">Total Elements Studied</label>
-                <input type ='number' id='quantity' min='1' max='119' value={total_elements_studied} onChange={(event) => setTotalElementsStudied(event.target.value)} />
+                <input type ='number' id='quantity' min='1' max='119' style={{width:600}} value={total_elements_studied} onChange={(event) => setTotalElementsStudied(event.target.value)} />
                 <button type='submit' className='note_button' style={{'margin-right': '10rem'}}>Add Note</button>
                 </div>
             </div>
