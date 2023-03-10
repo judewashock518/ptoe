@@ -17,24 +17,26 @@ const NotePadPage = (props)=>{
     setNotes(tempEntries);
   }
   useEffect(() => {
-    const fetchNotes = async () => {
-      try {
-        let response = await axios.get("http://127.0.0.1:8000/api/notepad/notes/", {
-          headers: {
-            Authorization: "Bearer " + token,
-          },
-        });
-        console.log(response.data);
-        setNotes(response.data);
-      } catch (error) {
-        console.log(error.response.data);
-      }
-    };
+   
     fetchNotes();
   }, [token]);
+
+  const fetchNotes = async () => {
+    try {
+      let response = await axios.get("http://127.0.0.1:8000/api/notepad/notes/", {
+        headers: {
+          Authorization: "Bearer " + token,
+        },
+      });
+      console.log(response.data);
+      setNotes(response.data);
+    } catch (error) {
+      console.log(error.response.data);
+    }
+  };
     return(
         <div>
-            <CreateNoteForm addNewEntryProperty={addNewEntry}/>
+            <CreateNoteForm addNewEntryProperty={addNewEntry} getAllNotes={fetchNotes}/>
             {notes && <NoteList notes = {notes}/>}
         </div>
     )
