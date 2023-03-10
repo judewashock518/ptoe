@@ -1,0 +1,28 @@
+.note_border_box {
+    float:center;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.name_space {
+    margin-top: 0rem;
+}
+
+.note_space {
+    margin-top: 2rem;
+}
+
+.date_space {
+    margin-top: 2rem;
+}
+
+.element_csv {
+    margin-top: 2rem;
+}
+
+.elements_studied {
+    margin-top: 2rem;
+}

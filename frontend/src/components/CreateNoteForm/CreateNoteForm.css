@@ -1,0 +1,48 @@
+.container_fluid {
+   /* justify-content: center;
+   width:auto;
+   margin-left:5rem;
+   margin-top:0rem;
+   margin-right:2rem; */
+   display: block;
+    width: 100%;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size: 17px;
+}
+
+.post_flex_box {
+    margin-top: 1rem;
+}
+
+.label_flex {
+    font-size:2rem;
+    justify-content: left;
+}
+
+.input_box {
+    margin-left: 0rem;
+    justify-content: left;
+}
+
+.text_box {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    justify-content: left;
+    
+}
+
+.note_button {
+    color:rgb(228, 227, 227);
+    background-image: linear-gradient(
+        to right,
+    rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
+    box-shadow: 0 4px 15px 0 rgba(149, 114, 129, 0.75);
+    border-radius:2rem;
+    border:none;
+}
+
+.note_button:hover {
+    background: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
+}
