@@ -30,7 +30,6 @@ button {
   font-size: 16px;
   font-weight:bold;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  max-width: 100px;
   padding: 0.5rem 0.5rem;
 }
 
@@ -120,9 +119,6 @@ td {
   color: rgb(228, 224, 224);
   cursor: pointer;
   align-items:center;
-  margin: 2px;
-  margin-top:1.5rem;
-  height: 55px;
   text-align:center;
   border: none;
   background-size: 300% 100%;
@@ -176,7 +172,7 @@ td {
 .element-name {
   position:relative;
   text-align:center;
-  margin-top: 1rem;
+  margin-top: 0.4rem;
   font-size:1.4rem;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight:bold;
@@ -184,15 +180,20 @@ td {
 }
 
 .atomic-mass {
-  margin-top:1rem;
+  margin-top:0.4rem;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size:1.0rem;
 }
 
+.image {
+  margin-top:0.4rem;
+  object-fit:contain;
+}
+
 .phase {
-  margin-top:1rem;
+  margin-top:0.3rem;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size:1.0rem;
+  font-size:1rem;
   font-style:italic;
 }
 

@@ -73,8 +73,9 @@ const PeriodicTable = () => {
         <div className={element.categoryStyleBack}>
             <div className="element-name">{element.name}</div>
             <div className="atomic-mass">{element.atomic_mass} u</div>
+            <img className="image" src={element.image_url} width="70" height='70'/>
             <div className="phase">{element.phase}</div>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Hydrogenglow.jpg" width="70"/><a href={element.source}
+            <a href={element.source}
             target="_blank">
             <button className="bn632-hover bn22">More info</button>
             </a>
