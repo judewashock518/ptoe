@@ -37,7 +37,7 @@ const NotePadPage = (props)=>{
     }
   };
     return(
-        <div>
+        <div className="notepad">
             <CreateNoteForm addNewEntryProperty={addNewEntry} getAllNotes={fetchNotes}/>
             {notes && <NoteList getAllNotes={fetchNotes} notes = {notes} setToggle={setToggle}/>}
         </div>
