@@ -538,7 +538,6 @@ const CreateNoteForm = (props) => {
                     isMulti
                     isClearable
                 />
-                <textarea className="text_box" type='text' rows='2' style={{width:600}} value={element_csv} onChange={(event) => setElementCsv(event.target.value)}></textarea>
                 <label className="note_label_flex">Total Elements Studied</label>
                 <input type ='number' id='quantity' min='1' max='119' style={{width:600}} value={total_elements_studied} onChange={(event) => setTotalElementsStudied(event.target.value)} />
                 <button type='submit' className='note_button' style={{'margin-right': '10rem'}}>Add Note</button>
