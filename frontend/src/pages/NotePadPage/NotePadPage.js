@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CreateNoteForm from '../../components/CreateNoteForm/CreateNoteForm';
 import NoteList from '../../components/NoteList/NoteList';
 import './NotePadPage.css';
+import '../../components/NoteList/NoteList.css';
 import useAuth from '../../hooks/useAuth';
 import axios from 'axios';
 import UpdateNote from '../../components/UpdateNote/UpdateNote';
@@ -37,9 +38,9 @@ const NotePadPage = (props)=>{
     }
   };
     return(
-        <div className="notepad">
-            <CreateNoteForm addNewEntryProperty={addNewEntry} getAllNotes={fetchNotes}/>
-            {notes && <NoteList getAllNotes={fetchNotes} notes = {notes} setToggle={setToggle}/>}
+        <div className="notepad-page">
+            <div className="notepad"><CreateNoteForm addNewEntryProperty={addNewEntry} getAllNotes={fetchNotes}/></div>
+            <div className="notes">{notes && <NoteList getAllNotes={fetchNotes} notes = {notes} setToggle={setToggle}/>}</div>
         </div>
     )
 }

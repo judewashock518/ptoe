@@ -1,12 +1,23 @@
-.border-box {
+/* .border-box {
     display: grid;
     border: 1px;
     border-style: solid;
     border-color: black;
     margin: 1rem;
     padding: 1rem;
+} */
+
+.notepad-page {
+    height:300vh;
 }
 
 .notepad {
-    height:300vh;
+    margin-top:2rem;
+}
+
+.notes {
+    display:grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap:2rem;
+    margin-top:5rem;
 }
