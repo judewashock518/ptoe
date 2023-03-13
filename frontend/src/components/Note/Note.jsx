@@ -8,7 +8,13 @@ const[noteToUpdate,setNoteToUpdate]=useState(1)
 
 function handleClick(noteId){
   setNoteToUpdate(noteId)
-  setToggle(true)
+  if (toggle == false) {
+    setToggle(true)
+  }
+  else {
+    setToggle(false)
+  }
+  
 }
   return (
     <div>

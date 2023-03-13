@@ -74,7 +74,7 @@ const PeriodicTable = () => {
             <div className="element-name">{element.name}</div>
             <div className="atomic-mass">{element.atomic_mass} u</div>
             <div className="phase">{element.phase}</div>
-            <a href={element.source}
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Hydrogenglow.jpg" width="70"/><a href={element.source}
             target="_blank">
             <button className="bn632-hover bn22">More info</button>
             </a>
